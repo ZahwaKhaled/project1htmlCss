@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Login Page </title>
+    <link rel="icon" type="image/x-icon" href="loginn.png">  
+</head>
+<body>
+
+    <form action="home page.htm" method="post" style="width: 600px; height: 750px;">
+      <br>
+      <br>
+        <div class="imgcontainer">
+          <img src="user.jpg" alt="Avatar" class="avatar">
+        </div>
+      
+        <div class="container">
+          <label for="username"><b>UserName</b></label>
+          <input type="text" placeholder="Enter Username" name="username" required>
+      
+          <label for="password"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="password" required><br>
+          <span class="password" > <a href="#">Forget password?</a></span>
+          <br><br><br>
+          <button type="submit"> Login</button>
+        </div>
+        <div class="container" >
+          <button type="button" class="cancelbtn">Cancel</button>
+        </div>
+      </form>
+
+    <style>
+  
+  form {
+  border: 3px solid #f1f1f1;
+  margin: auto;
+  background-color:white;
+  box-shadow: 5px 5px 10px;
+  border-radius: 5px;
+  
+}
+body{
+background-image: url('logg.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+button {
+  background-color:mediumorchid;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color:mediumorchid ;
+  margin :8px 0;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 95%;
+} 
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+  position: relative;
+}
+
+span.password {
+  text-align: right;
+  padding-top: 16px;
+}
+
+</style>
+
+</body>
+</html>

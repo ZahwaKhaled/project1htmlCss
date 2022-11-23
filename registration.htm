@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Register </title>
+    <link rel="icon" type="image/x-icon" href="register.png"> 
+</head>
+
+<body>
+    <div class="my form">
+    <form action="Thank-you-for-registering.png" method="post"style="width: 700px; height: 900px;" >
+
+        <h1> Registeration Form </h1>
+
+        <label for="Fisrt name"> First Name </label>
+        <br>
+        <input type="text" id="First name" name="First name" placeholder="Enter your first name" required >
+      <br>
+      <label for="Middle name"> Middle Name  </label>
+      <br>
+      <input type="text" id="Middle name" name="Middle name" placeholder="Enter your last name" required>
+     <br>
+        <label for="Last name"> Last Name  </label>
+        <br>
+        <input type="text" id="Last name" name="Last name" placeholder="Enter your last name" required>
+      <br>
+      <label for="Birth Date"> Birth Date </label>
+      <br>
+      <input type="date" id="Birth Date" name="Birth Date" date>
+      <br>
+        <label for="Email"> Email </label>
+        <br>
+        <input type="email" id="Email" name="email" placeholder="Enter your email" required,email>
+      <br>
+      <label for="Password"> Password </label>
+      <br>
+      <input type="password" id="password" name="password" placeholder="Enter your password" password>
+      <br>
+      <label for=" Password">Confirm Password </label>
+      <br>
+      <input type="password" id=" password" name=" password" placeholder="Re-enter your password" password >
+     <br>
+     <label for="phone" > Phone number </label>
+     <br>
+     <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{5}-[0-9]{3}" placeholder="+20-123-456-789">
+     <br><br>
+     <label> Gender </label>
+     <br>
+     <input type="radio" name="g" value="Male">Male
+     <input type="radio" name="g" value="Female">Female
+    <div class="container" style="text-align: center ;">
+     <button type="submit" class="submit" style="width: 150px; height: 50px; background-color:firebrick ;border-color:firebrick; border-radius: 5px ;font-weight: bold; box-shadow: 5px 5px 10px;">Register</button>
+   </div>
+     
+     <div class="sign up" style="text-align: center;">
+      <h3 style="color:burlywood;">Don't have account?
+        <br> Sign Up With<br> </h3>
+      <a href="https://www.facebook.com/"> <img src="Facebook.jpeg" style="width:30px">
+      <a href="https://www.linkedin.com/feed/"> <img src=" linkedin.jpeg" style="width:30px">
+      <a href="https://mail.google.com/"> <img src="gmail.png " style="width:38px">
+      </div>
+   
+    </form>
+
+    <style>
+   
+form {
+  border: 3px solid #f1f1f1;
+  margin: auto;
+  background-color: white;
+  padding: 16px;
+  color:burlywood;
+  box-shadow:5px 5px 10px;
+  border-radius: 5px;
+}
+body {
+  font-weight: bold;
+  background-image:url('logg.jpeg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input[type=text], input[type=password] ,input[type=email],input[type=tel],input[type=date] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=text], input[type=password] ,input[type=email],input[type=tel],input[type=date]:hover{
+  border-color: rgba(255, 51, 153,.05);
+}
+input[type=text], input[type=password] ,input[type=email],input[type=tel],input[type=date]:focus{
+  border-color:firebrick;
+}
+h1{
+    text-align: center;
+    color:firebrick ;
+}
+
+    </style>
+</body>
+</html>
